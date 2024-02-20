@@ -86,14 +86,15 @@ Le coefficient de corrélation linéaire de Pearson est la méthode la plus comm
 
 Si la corrélation est entre 0 et 1 on peut comprendre que lorsque la première variable change la deuxième variable change dans la même direction. Une corrélation négative signifie que la deuxième variable change dans une direction opposée. 0 signifie qu'il n'y a pas de corrélation entre les 2 variables. 
 
-| Valeur |	Force |	Direction |
-| > 0,5 |	Forte |	Positive |
-| 0,3 - 0,5 |	Modérée |	Positive |
-| 0 - 0,3 |	Faible |	Positive |
-| 0 |	Nulle |	Nulle |
-| 0 - (-0,3) |	Faible |	Négative |
-| -0,3 - (-0,5) |	Modérée |	Négative |
-| < -0,5 |	Forte |	Négative |
+| Valeur | Force | Direction |
+|---|---|---|
+| > 0,5 | Forte | Positive |
+| 0,3 - 0,5 | Modérée | Positive |
+| 0 - 0,3 | Faible | Positive |
+| 0 | Nulle | Nulle |
+| 0 - (-0,3) | Faible | Négative |
+| -0,3 - (-0,5) | Modérée | Négative |
+| < -0,5 | Forte | Négative |
 
 ### K. Une fonction de coût
 
@@ -108,3 +109,5 @@ Il y a aussi le principe de **Minimisation** vs **Maximisation** :
 ### L. La descente de gradient
 
 La descente de gradient est un algorithme d'optimisation permettant d'identifier le minimum/maximum d'une fonction. Cette méthode est souvent utilisée en machine learning et deep learning afin de minimiser la fonction de cout. Le modèle ajuste ses paramètres lors de l'entraînement d'un modèle d'apprentissage automatique ou d'apprentissage profond afin de réduire la fonction de coût au fur et à mesure afin qu'elle se rapproche de 0. La fonction de coût agit comme un indicateur de performance des paramètres.
+
+![gradient descent](https://datacorner.fr/wp-content/uploads/2021/03/gradient_descent_1.jpg)
