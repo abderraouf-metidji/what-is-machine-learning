@@ -70,16 +70,41 @@ C'est une méthode statistique qui permet l'évaluation des performances des mod
 
 ### I. Les données d’entraînement, les données de test et/ ou de validation
 
+Données d'entraînement : permettent au modèle d'apprendre des patterns ou des relations entre les différentes varibles / observations
 
+Données de test : Permettent de vérifier que le modèle comprends les données d'entraîtenement et que l'apprentissage a bel et bien été entamé
+
+Données de validation : utilisées avant les données de test elles permettent de s'assurer que le modèle est capable d'émettre des hypothèses, classifier, identifier etc la donnée inconnue
+
+![entrainment / validation / test](https://stanford.edu/~shervine/teaching/cs-229/illustrations/train-val-test-fr.png?9ebf3eabcf1d1223ffa3b441a758e829)
 
 ### J. Corrélation linéaire (de Pearson) entre deux variables
 
+Le coefficient de corrélation linéaire de Pearson est la méthode la plus commune pour mesurer la corrélation linéaire. Cette méthode nous donne un résultat en -1 et 1 ou -1/1 représente la corrélation la plus forte entre 2 variables.
 
+![corrélation pearson](https://datatab.fr/assets/tutorial/%C3%89quation_de_la_corr%C3%A9lation_de_Pearson.png)
+
+Si la corrélation est entre 0 et 1 on peut comprendre que lorsque la première variable change la deuxième variable change dans la même direction. Une corrélation négative signifie que la deuxième variable change dans une direction opposée. 0 signifie qu'il n'y a pas de corrélation entre les 2 variables. 
+
+| Valeur |	Force |	Direction |
+| > 0,5 |	Forte |	Positive |
+| 0,3 - 0,5 |	Modérée |	Positive |
+| 0 - 0,3 |	Faible |	Positive |
+| 0 |	Nulle |	Nulle |
+| 0 - (-0,3) |	Faible |	Négative |
+| -0,3 - (-0,5) |	Modérée |	Négative |
+| < -0,5 |	Forte |	Négative |
 
 ### K. Une fonction de coût
 
+La fonction de coût mesure la performance d'un modèle d'apprentissage automatique pour un dataset. Cette fonction va quantifier les erreurs entre la donnée prédite et la donnée attendue. Ces erreurs sont représentées sous la forme d'un nombre. On retrouve deux types de fonctions :
+* Fonctions de perte: Elles mesurent l'écart entre les prédictions et les valeurs réelles
+* Fonctions de récompense: Elles mesurent la performance du modèle en fonction d'un objectif spécifique
 
+Il y a aussi le principe de **Minimisation** vs **Maximisation** : 
+* Minimisation : la plupart des fonctions de coût sont minimisées
+* Maximisation : certaines fonctions de coût, comme la fonction de vraisemlance, sont maximisées
 
 ### L. La descente de gradient
 
-
+La descente de gradient est un algorithme d'optimisation permettant d'identifier le minimum/maximum d'une fonction. Cette méthode est souvent utilisée en machine learning et deep learning afin de minimiser la fonction de cout. Le modèle ajuste ses paramètres lors de l'entraînement d'un modèle d'apprentissage automatique ou d'apprentissage profond afin de réduire la fonction de coût au fur et à mesure afin qu'elle se rapproche de 0. La fonction de coût agit comme un indicateur de performance des paramètres.
