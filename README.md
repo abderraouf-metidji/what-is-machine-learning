@@ -1,5 +1,11 @@
 # Qu'est-ce que le Machine Learning (Aprentissage automatique)
 
+## Contexte du projet
+
+Il s'agit d'une veille documentaire sur des sujets liés au Machine Learning afin d'appréhender et essayer de comprendre ces concepts avant de débuter des projets. 
+
+## Définitions
+
 ### A. La science des données
 
 La science des données combine les mathématiques, statistiques, la programmation, l'analyse avancée, l'intelligence artificielle et l'apprentissage automatique dans le but d'extraire des données pertinentes permettant de guider les décisions et le plan stratégique d'une entreprise. 
